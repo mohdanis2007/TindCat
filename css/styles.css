@@ -1,0 +1,256 @@
+
+
+
+
+/*******fonts & h tags*******/
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+}
+
+
+h1 {
+  color: white;
+  font-size: 4em;
+  padding-top: 100px;
+  width: 90%
+}
+
+
+h2 {
+  font-size: 3rem;
+}
+
+
+
+h3 {
+  font-weight: bold;
+}
+
+
+
+
+/**********div-color********/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+.white-section {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+/*****title****/
+
+
+
+
+
+
+.title-row {
+  text-align: left;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 50px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-btn {
+  margin: 30px;
+}
+
+.title-image {
+  height: 700px;
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 250px;
+  right: 400px;
+}
+
+
+.row {
+  text-align: center;
+  padding: 50px 30px 50px 30px;
+}
+
+
+
+@media (max-width:1527.56px) {
+
+.title-row {
+  text-align: center;
+}
+
+.title-image {
+  position: static;
+  transform: rotate(0deg);
+}
+}
+
+
+
+
+/***********Features************/
+
+
+
+
+
+
+#features {
+  position: relative;
+  padding: 60px 0 60px 0;
+  z-index: 1;
+}
+
+.features-row {
+  color: black;
+  text-align: center;
+  padding: 50px 30px 50px 30px;
+}
+
+.features-awesome {
+  color: #ef8172;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+
+
+
+
+
+/****Testimonials*****/
+
+
+
+
+
+
+
+#testimonials {
+  background-color: #ef8172 ;
+  padding: 7%;
+  text-align:center;
+}
+
+.cat-img {
+  height: 290px ;
+  width: 270px;
+  border-radius: 100%;
+  padding: 30px;
+}
+
+
+#carousel-btn {
+  margin: 0 40px 0 40px;
+  padding: 0 40px 0 40px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172 ;
+  padding-bottom: 40px;
+
+}
+
+
+.press-image {
+  width: 15%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+
+/******Price*******/
+
+
+
+
+
+
+#pricing {
+  padding : 100px;
+  text-align: center;
+}
+
+.pricing-card {
+  padding : 3% 2%;
+}
+
+
+
+
+/*********Call to Action*****/
+
+
+
+
+
+
+
+.cta-div {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+font-size: 3.5rem;
+line-height: 4rem;
+}
+
+
+
+
+
+/****Footer*******/
+
+
+
+
+
+#footer {
+  padding: 6% 12%;
+  line-height: 2em;
+  text-align: center;
+}
+
+.footer-font {
+  padding: 15px;
+}
